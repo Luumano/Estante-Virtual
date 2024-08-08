@@ -1,0 +1,755 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9290C3;
+}
+.container{
+    position: absolute;
+    width: 100%;
+}
+
+.inicio{
+    width: 100%; 
+    height: 50px; 
+    background-color: #070F2B;
+    position: relative;
+    margin: 0 auto; 
+}
+
+.inicio p{
+    width: 386px;
+    position: absolute; 
+    text-align: center; 
+    color: white; 
+    font-size: 14px;  
+}
+
+.painel{
+    position: absolute;
+    width:100%;
+    height:120px;
+    background-color: #1B1A55; 
+    
+    
+}
+.painel h1{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    width: 190px;
+    left: 100px;
+    font-size: 32px; 
+    font-family: jejuGothic;
+    font-weight: 400;
+}
+
+.painel1 {
+    width: 485px;
+    height: 47px;
+    left: 295px; 
+    top: 40px;
+    position: absolute; 
+    background: white; 
+    border-radius: 14px;
+}
+.painel2 input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 450px;
+    height: 45px;
+    background: transparent;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+
+.painel2{
+    left: 390px;
+    top: 45px;
+    position: absolute;
+    font-family: JejuGothic; 
+    font-weight: 400; 
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+.categorias{
+    width: 100%;
+    height:50px;  
+    top: 120px;
+    position: absolute; 
+    cursor: pointer;
+    background: linear-gradient(0deg, #535C91 0%, #535C91 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%)
+}
+
+.textc {
+    left: 71px;
+    top:0px;
+    position: absolute;
+    color: white; 
+    font-size: 32px; 
+    font-family: Inter; 
+    word-wrap: break-word
+}
+
+.foto {
+    right: 0px; 
+    width: 100%; 
+    height: auto; 
+    top: 210px;
+    position: absolute;
+    text-align: center; 
+}
+.foto img {
+    width: 100%; 
+    height: auto;
+
+}
+
+.usuario {
+    left: 875px;
+    top: 47px;
+    position: absolute;
+    font-size: 19px;
+    font-family: JejuGothic;
+    cursor: pointer;
+}
+
+.usuario a {
+    text-decoration: none;
+    color: inherit;
+    padding: 8px 12px;
+    color: #f0f0f0;
+}
+
+.usuario a:hover {
+    color: rgb(181, 209, 238);
+}
+
+.usuario1 {
+    left: 850px;
+    top: 54px;
+    position: absolute;
+}
+
+.usuario img {
+    position: relative;
+    cursor: pointer;
+}
+
+.usuario #cartIconLink img {
+    position: relative;
+    top: 5px; 
+}
+
+.painel1 img{
+    position: absolute;
+    top: 9px;
+    left: 150px;
+}
+
+.painel2 img{
+    position: absolute;
+    top: 11px;
+    left: 290px;
+}
+
+
+.textc img{
+    left: 150px;
+    top: 11px;
+    position: absolute;
+}
+
+.section-title1 {  
+    position: absolute;
+    top: 550px;
+    left: 110px;
+    mix-blend-mode: color-burn;
+    font-size: 32px;
+    font-family: Inter;
+    height: auto;
+    font-weight: 100; 
+
+   
+}
+.book-card{
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 600px;
+}
+
+.price-tag {
+    width: 145px;
+    height: 30px;
+    position: absolute;
+    top: 221px;
+    left: 15px;
+}
+.price-background {
+    width: 145px;
+    height: 30px;
+    background: white;
+    border-radius: 5px;
+    border: 1px white solid;
+}
+.price-text {
+    position: absolute;
+    top: 7px;
+    left: 17px;
+    text-align: center;
+    color: #1B1A55;
+    font-size: 15px;
+    font-family: JejuGothic;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.book-title {
+    position: absolute;
+    top: 164px;
+    left: 28px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-family: Inria Serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.book-author {
+    position: absolute;
+    top: 186px;
+    left: 35px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: Inria Serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.book-image {
+    width: 85px;
+    height: 127px;
+    position: absolute;
+    top: 30px;
+    left: 47px;
+}
+
+.section-title2 {
+    width: 443px;
+    height: 52px;
+    position: absolute;
+    top: 890px;
+    left: 106px;
+    mix-blend-mode: color-burn;
+    color: black;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.authors-title {
+    width: 443px;
+    height: 52px;
+    position: absolute;
+    top: 1265px;
+    left: 109.48px;
+    mix-blend-mode: color-burn;
+    color: black;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.author-image1 {
+    width: 216px;
+    height: 219px;
+    position: absolute;
+    top: 1390px;
+    left: 150px;
+    border-radius: 9999px;
+}
+
+.author-image2{
+    width: 216px; 
+    height: 219px;
+    left: 460px;
+    top: 1390px;
+    position: absolute; 
+    border-radius: 9999px
+}
+.author-image3{
+    width: 216px;
+    height: 219px;
+    left: 770px; 
+    top:1400px; 
+    position: absolute; 
+    border-radius: 9999px
+}
+.author-image4{
+    width: 216px; 
+    height: 219px; 
+    left: 1080px; 
+    top: 1390px; 
+    position: absolute; 
+    border-radius: 9999px
+}
+.autores{
+    position: absolute; 
+    text-align: center; 
+    color: black;
+    font-size: 15px; 
+    font-family: JejuGothic;
+    font-weight: 400; 
+    word-wrap: break-word;
+  
+     
+}
+.author1{
+position: absolute; 
+color: black;
+font-family: JejuGothic;
+word-wrap: break-word;
+height: 22px; 
+left: 180px;
+top: 1650px;
+font-size: 19px;
+}
+.author2{
+ position: absolute; 
+ color: black; 
+ font-family: JejuGothic;
+ word-wrap: break-word;    
+height: 22px; 
+left: 510px;
+top: 1650px;
+font-size: 19px;
+}
+
+.author3{
+position: absolute; 
+color: black; 
+font-family: JejuGothic;
+word-wrap: break-word;    
+height: 22px;
+left: 820px; 
+top: 1650px;
+font-size: 19px;
+}
+.author4{
+position: absolute; 
+color: black; 
+font-family: JejuGothic;
+word-wrap: break-word;    
+height: 22px;
+left: 1150px; 
+top: 1650px;
+font-size: 19px; 
+}
+
+.section-title3 {
+    width: 443px;
+    height: 52px;
+    position: absolute;
+    top: 1700px;
+    left: 109px;
+    mix-blend-mode: color-burn;
+    color: black;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.leiamais{
+    width: 352px; 
+    height: 258px;
+    left: 250px;
+    top: 1750px; 
+    position: absolute
+}
+.leiamais1{
+width: 256px;
+ height: 70px;
+ left: 38px; 
+ top:  180px; 
+ position: absolute; 
+ background: #201F75; 
+ border-radius: 20px
+}
+
+.imgCLAS {
+    width: 256px;
+    height: 225px; 
+    left: 38px; 
+    top: 1750px; 
+    position: absolute; 
+    border-radius: 20px
+
+}
+.nome1{
+    left:0px; 
+    top: 210px;
+    position: absolute; 
+    text-align: center; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Abhaya Libre ExtraBold; 
+    font-weight: 800; 
+    word-wrap: break-word;
+    width:352px;
+    height:202px;
+}
+
+.leiamaiss{
+width:352px; 
+height:258px;
+left:550px;
+top: 1750px; 
+position:absolute
+}
+
+.leiamais2{
+width: 256px;
+height: 78px;
+left: 38px; 
+top: 180px; 
+position: absolute; 
+background: #201F75; 
+border-radius: 20px
+}
+.imgCLAS{
+width: 256px;
+height: 225px; 
+left: 38px; 
+top: 12px; 
+position: absolute; 
+border-radius: 20px
+    
+}
+.nomes2{
+    left:0px; 
+    top: 210px;
+    position: absolute; 
+    text-align: center; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Abhaya Libre ExtraBold; 
+    font-weight: 800; 
+    word-wrap: break-word;
+    width:352px;
+    height:202px;
+}
+.leiamaiss3{
+    width:352px; 
+    height:258px;
+    left:850px;
+    top: 1750px;
+    position:absolute
+}
+    
+
+.leiamais3{
+width: 256px;
+height: 78px;
+left: 38px; 
+top: 180px; 
+position: absolute; 
+background: #201F75; 
+ border-radius: 20px
+}
+.imgCLAS{
+width: 256px;
+height: 225px; 
+left: 38px; 
+top: 12px; 
+position: absolute; 
+border-radius: 20px
+        
+ }
+.nome3{
+left: 0px; 
+top: 210px;
+position: absolute; 
+text-align: center; 
+color: white; 
+font-size: 32px; 
+font-family: Abhaya Libre ExtraBold; 
+font-weight: 800; 
+word-wrap: break-word;
+width:352px;
+height:202px;
+ }
+
+ .final{
+    width: 100%; 
+    left: 0px; 
+    top: 2090px; 
+    position: absolute; 
+    border: 3px white solid;
+
+ }
+
+ /* Estilos para a página de login e cadastro */
+main {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+.container1{ 
+    width: 1294px;
+    height: 788px; 
+    left: 0px; 
+    top: 0px;
+    position: absolute; 
+    border-radius: 40px; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex
+}
+.container2{
+    width: 1294px;
+    height: 788px; 
+    background: rgba(255, 255, 255, 0.45); 
+    box-shadow: 40px 40px 50px rgba(0, 0, 0, 0.40); 
+    border-radius: 40px;
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin-top: 20px;
+}
+
+ /* menu de categorias*/
+.categories-menu {
+    top:40px;
+    left: 80px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 20px;
+}
+
+.categories-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.categories-menu ul li a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 8px 12px;
+}
+
+.categories-menu ul li a:hover {
+    background-color: #f0f0f0;
+}
+
+.book-details{
+    position: absolute;
+    top: 350px;
+}
+
+
+@media (max-width: 480px) {
+    .inicio p {
+        font-size: 14px; 
+        text-align: center;
+       
+    }
+    .painel h1{
+        top: 5px;
+        left: 30px;
+        font-size:100% ;
+    }
+    .painel1 {
+        width: 50%; 
+        left: 7%;
+        padding: 10px;
+        height: 25px;
+    }
+    .painel2 input[type="text"] {
+        top: 38px;
+        left: 10px;
+        font-size:10px;
+    }
+    .textc {
+        font-size: 20px;
+        top: 5px;
+        left: 26px;
+    }
+    #categoriesIcon {
+        width: 20px;
+        height: auto;
+        left: 100px;
+        top: 9px;
+    }
+    #categoriesMenu{
+        left: 15px;
+    }
+    .foto {
+        top: 205px; 
+    }
+    .usuario {
+        left: 67%;
+        top: 55px;
+        font-size: 10px;
+    }
+    .usuario1 {
+        left: 65%;
+        top: 55px;
+    }
+    .usuario1 img {
+        width: 15px; 
+        height: auto;
+    }
+    .usuario #cartIconLink img {
+        top: 2px; 
+        width: 24px; 
+        height: auto;
+        left: -10px;
+    }
+    .section-title1{
+        top: 300px;
+        left: 19px;
+        font-size: 19px;
+    }
+    .book-card {
+        width: auto;
+    }
+    .book-image {
+        width: 55px;
+        height: auto;
+    }
+    .price-tag {
+        width: 80px;
+    }
+    .price-background, .price-text {
+        width: 80px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .painel h1 {
+        top: 5px;
+        left: 30px;
+        font-size:100% ;
+    }
+    .painel1 {
+        width: 50%; 
+        left: 7%; 
+        padding: 10px;
+        height: 25px;
+    }
+    .painel2 {
+        top: 38px;
+        left: 40px;
+
+    }
+
+    #searchIcon {
+        left: 150px;
+        top: 19px;
+        height: 20px;
+    }
+
+    .textc {
+        font-size: 20px;
+        top: 5px;
+        left: 26px;
+    }
+    #categoriesIcon {
+        width: 20px;
+        height: auto;
+        left: 100px;
+        top: 9px;
+    }
+    #categoriesMenu{
+        left: 15px;
+    }
+    .foto {
+        top: 205px; 
+    }
+    .usuario{
+        left: 50%;
+        top:40px;
+        font-size: 17px;
+    }
+    .usuario1 {
+        left: 65%;
+        top: 48px;
+
+    }
+    .usuario1 img {
+        width: 15px; 
+        height: auto;
+    }
+    .usuario #cartIconLink img {
+        top: 0px; 
+        width: 24px; 
+        height: auto; 
+        left: -10px;
+    }
+    .section-title1{
+        top: 300px;
+        left: 19px;
+        font-size: 19px;
+       }
+       .book-card {
+        width: auto;
+    }
+    .book-image {
+        width: 65px;
+        height: auto;
+    }
+    .price-tag {
+        width: 100px;
+    }
+    .price-background, .price-text {
+        width: 100px;
+    }
+}

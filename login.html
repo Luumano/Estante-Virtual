@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Login - Estante Virtual</title>
+</head>
+<body>
+    <header class="inicio">
+        <p>Compre aqui livros novos, usados e seminovos!</p>
+    </header>
+
+    <nav class="container">
+        <div class="painel">
+            <h1>Estante Virtual</h1>
+            <div class="painel1"></div>
+            <div class="painel2">
+                <input type="text" id="searchInput" placeholder="O que você está procurando?">
+                <img id="searchIcon" src="img/pesquisa.png" alt="Ícone de pesquisa">
+            </div>
+            <div class="usuario1">
+                <a href="login.html" id="userIconLink">
+                    <img src="img/usuario.png" alt="Usuário">
+                </a>
+            </div>
+            <div class="usuario">
+                <a href="login.html" id="userGreetingLink">Olá Usuário</a>
+                <a href="compra.html" id="cartIconLink">
+                    <img src="img/carrinho.png" alt="Carrinho">
+                </a>
+            </div>
+        </div>
+        <div class="categorias">
+            <div class="textc">
+                Categorias
+                <img src="img/categoria.png" alt="" id="categoriesIcon">
+            </div>
+            <div class="categories-menu" id="categoriesMenu">
+                <ul>
+                    <li><a href="romance.html">Romance</a></li>
+                    <li><a href="drama.html">Drama</a></li>
+                    <li><a href="culinaria.html">Culinária</a></li>
+                    <li><a href="fantasia.html">Fantasia</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <form id="loginForm">
+            <div class="container2">
+                <div class="shadow-box"></div>
+                <div class="left-box">
+                    <div class="left-background"></div>
+                </div>
+                
+                <div class="circle-container">
+                    <div class="circle"></div>
+                    <div class="circle-line-1"></div>
+                    <div class="circle-line-2"></div>
+                </div>
+            </div>
+        
+            <div class="login-button">
+                <div class="login-background"></div>
+                <button type="submit" class="login-text">Entrar</button>
+            </div>
+              
+            <div class="welcome">
+                <div class="welcome-text">BEM VINDO</div>
+            </div>
+        
+            <div class="title">
+                <div class="title-text"><span>BOOK<br/></span><span>MAGIC</span></div>
+            </div>
+        
+            <div class="email-container">
+                <div class="email-background"></div>
+                <label class="email-label" for="emailInput">Email:</label>
+                <input type="email" id="emailInput" class="email-input" placeholder="Ex: antonio@gmail.com">
+            </div>
+            
+            <div class="password-container">
+                <div class="password-background"></div>
+                <label class="password-label" for="passwordInput">Senha:</label>
+                <input type="password" id="passwordInput" class="password-input" placeholder="Sua senha">
+            </div>
+        
+        
+                <div class="signup-button">
+                    <div class="signup-background"></div>
+                </div>
+           
+        
+            <div class="login-header">
+                <div class="login-header-text">Faça Login</div>
+            </div>
+        
+            <div class="tagline">
+                <div class="tagline-text">A sua Estante Virtual</div>
+            </div>
+
+
+
+            <div class="email-container">
+                <label class="email-label" for="emailInput">Email:</label>
+                <input type="email" id="emailInput" class="email-input" placeholder="Ex: antonio@gmail.com" required>
+            </div>
+            <div class="password-container">
+                <label class="password-label" for="passwordInput">Senha:</label>
+                <input type="password" id="passwordInput" class="password-input" placeholder="Sua senha" required>
+            </div>
+         
+
+        </form>
+
+        <div id="loginMessage"></div>
+        <div class="forgot-password">
+            <a href="#">Esqueceu a senha?</a>
+        </div>
+        <a href="register.html">
+            <div class="signup-button">
+                <div class="signup-text">Cadastrar-se</div>
+            </div>
+        </a>
+
+    </main>
+
+    <footer class="basic-footer"></footer>
+
+    <script src="js/login.js"></script>
+</body>
+</html>

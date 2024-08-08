@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Resultados da Pesquisa</title>
+</head>
+<body>
+    <header class="inicio">
+        <p>Compre aqui livros novos, usados e seminovos!</p>
+    </header>
+
+    <nav class="container">
+        <div class="painel">
+            <h1>Estante Virtual</h1>
+            <div class="painel1"></div>
+            <div class="painel2">
+                <input type="text" id="searchInput" placeholder="O que você está procurando?">
+                <img id="searchIcon" src="img/pesquisa.png" alt="Ícone de pesquisa">
+            </div>
+            <div class="usuario1">
+                <a href="login.html" id="userIconLink">
+                    <img src="img/usuario.png" alt="Usuário">
+                </a>
+            </div>
+            <div class="usuario">
+                <a href="login.html" id="userGreetingLink">Olá Usuário</a>
+                <a href="compra.html" id="cartIconLink">
+                    <img src="img/carrinho.png" alt="Carrinho"> </a>
+            </div>
+        </div>
+        <div class="categorias">
+            <div class="textc">
+                Categorias
+            <img src="img/categoria.png" alt="" id="categoriesIcon">
+            </div>
+            <div class="categories-menu" id="categoriesMenu">
+                <ul>
+                <li><a href="romance.html">Romance</a></li>
+                <li><a href="drama.html">Drama</a></li>
+                <li><a href="culinaria.html">Culinária</a></li>
+                <li><a href="fantasia.html">Fantasia</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h3>Resultados da Pesquisa</h3>
+    <p id="searchQuery"></p>
+    <div id="results"></div>
+    
+    <script src="js/searchResults.js"></script>
+</body>
+</html>

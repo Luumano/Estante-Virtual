@@ -1,0 +1,32 @@
+[
+    {
+        "title": "A hipótese do amor",
+        "author": "Ali Hazelwood",
+        "price": "6",
+        "image": "img/toradora 4.png"
+    },
+    {
+        "title": "Tempestade de Guerra",
+        "author": "Victoria Aveyard",
+        "price": "6",
+        "image": "https://via.placeholder.com/85x127"
+    },
+    {
+        "title": "O Diário de um Mago",
+        "author": "Paulo Coelho",
+        "price": "6",
+        "image": "https://via.placeholder.com/85x127"
+    },
+    {
+        "title": "Laços de Família",
+        "author": "Clarisse Lispector",
+        "price": "6",
+        "image": "https://via.placeholder.com/85x127"
+    },
+    {
+        "title": "A Culpa é das Estrelas",
+        "author": "John Green",
+        "price": "6",
+        "image": "https://via.placeholder.com/85x127"
+    }
+]

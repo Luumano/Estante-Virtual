@@ -1,0 +1,574 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9290C3;
+}
+.container{
+    position: absolute;
+    width: 100%;
+}
+
+.inicio{
+    width: 100%; 
+    height: 50px; 
+    background-color: #070F2B;
+    position: relative;
+    margin: 0 auto; 
+}
+
+.inicio p{
+    width: 386px;
+    position: absolute; 
+    text-align: center; 
+    color: white; 
+    font-size: 14px;  
+}
+
+.painel{
+    position: absolute;
+    width:100%;
+    height:120px;
+    background-color: #1B1A55; 
+    
+    
+}
+.painel h1{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    width: 190px;
+    left: 100px;
+    font-size: 32px; 
+    font-family: jejuGothic;
+    font-weight: 400;
+}
+
+.painel1 {
+    width: 485px;
+    height: 47px;
+    left: 295px; 
+    top: 40px;
+    position: absolute; 
+    background: white; 
+    border-radius: 14px;
+}
+.painel2 input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 450px;
+    height: 45px;
+    background: transparent;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+
+.painel2{
+    left: 390px;
+    top: 45px;
+    position: absolute;
+    font-family: JejuGothic; 
+    font-weight: 400; 
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+.categorias{
+    width: 100%;
+    height:50px;  
+    top: 120px;
+    position: absolute; 
+    cursor: pointer;
+    background: linear-gradient(0deg, #535C91 0%, #535C91 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%)
+}
+
+.textc {
+    left: 71px;
+    top:0px;
+    position: absolute;
+    color: white; 
+    font-size: 32px; 
+    font-family: Inter; 
+    word-wrap: break-word
+}
+
+.usuario {
+    left: 875px;
+    top: 47px;
+    position: absolute;
+    font-size: 19px;
+    font-family: JejuGothic;
+    cursor: pointer;
+}
+
+.usuario a {
+    text-decoration: none;
+    color: inherit;
+    padding: 8px 12px;
+    color: #f0f0f0;
+}
+
+.usuario a:hover {
+    color: rgb(181, 209, 238);
+}
+
+.usuario1 {
+    left: 850px;
+    top: 54px;
+    position: absolute;
+}
+
+.usuario img {
+    position: relative;
+    cursor: pointer;
+}
+
+.usuario #cartIconLink img {
+    position: relative;
+    top: 5px; 
+}
+
+.painel1 img{
+    position: absolute;
+    top: 9px;
+    left: 150px;
+}
+
+.painel2 img{
+    position: absolute;
+    top: 11px;
+    left: 290px;
+}
+
+
+.textc img{
+    left: 150px;
+    top: 11px;
+    position: absolute;
+}
+/* menu de categorias*/
+.categories-menu {
+    top:40px;
+    left: 80px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 20px;
+}
+
+.categories-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.categories-menu ul li a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 8px 12px;
+}
+
+.categories-menu ul li a:hover {
+    background-color: #f0f0f0;
+}
+@media (max-width: 480px) {
+    .inicio p {
+        font-size: 14px; 
+        text-align: center;
+       
+    }
+    .painel h1{
+        top: 5px;
+        left: 30px;
+        font-size:100% ;
+    }
+    .painel1 {
+        width: 50%; 
+        left: 7%;
+        padding: 10px;
+        height: 25px;
+    }
+    .painel2 input[type="text"] {
+        top: 38px;
+        left: 10px;
+        font-size:10px;
+    }
+    .textc {
+        font-size: 20px;
+        top: 5px;
+        left: 26px;
+    }
+    #categoriesIcon {
+        width: 20px;
+        height: auto;
+        left: 100px;
+        top: 9px;
+    }
+    #categoriesMenu{
+        left: 15px;
+    }
+   
+    .usuario {
+        left: 67%;
+        top: 55px;
+        font-size: 10px;
+    }
+    .usuario1 {
+        left: 65%;
+        top: 55px;
+    }
+    .usuario1 img {
+        width: 15px; 
+        height: auto;
+    }
+    .usuario #cartIconLink img {
+        top: 2px; 
+        width: 24px; 
+        height: auto;
+        left: -10px;
+    }
+    
+    
+}
+
+@media (max-width: 768px) {
+    .painel h1 {
+        top: 5px;
+        left: 30px;
+        font-size:100% ;
+    }
+    .painel1 {
+        width: 50%; 
+        left: 7%; 
+        padding: 10px;
+        height: 25px;
+    }
+    .painel2 {
+        top: 38px;
+        left: 40px;
+
+    }
+
+    #searchIcon {
+        left: 150px;
+        top: 19px;
+        height: 20px;
+    }
+
+    .textc {
+        font-size: 20px;
+        top: 5px;
+        left: 26px;
+    }
+    #categoriesIcon {
+        width: 20px;
+        height: auto;
+        left: 100px;
+        top: 9px;
+    }
+    #categoriesMenu{
+        left: 15px;
+    }
+   
+    .usuario{
+        left: 50%;
+        top:40px;
+        font-size: 17px;
+    }
+    .usuario1 {
+        left: 65%;
+        top: 48px;
+
+    }
+    .usuario1 img {
+        width: 15px; 
+        height: auto;
+    }
+    .usuario #cartIconLink img {
+        top: 0px; 
+        width: 24px; 
+        height: auto; 
+        left: -10px;
+    }
+    
+}
+
+main {
+    position: relative;
+    width: 100%;
+    max-width: 1267px;
+    margin: 0 auto;
+    padding: 20px;
+    top: -50px;
+}
+
+.container2 {
+    width: 90%;
+    height: 700px;
+    left: 40px;
+    top: 250px;
+    position: absolute;
+    border-radius: 40px;
+}
+
+.shadow-box {
+    width: 1267px;
+    height: 788px;
+    background: rgba(255, 255, 255, 0.45);
+    box-shadow: 40px 40px 50px rgba(0, 0, 0, 0.40);
+    border-radius: 40px;
+    
+}
+
+.left-box {
+    top: 0px;
+    position: absolute;
+    border-radius: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.left-background {
+    width: 462px;
+    height: 788px;
+    background: #201F75;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0);
+    border-radius: 40px;
+}
+
+.login-button {
+    left: 738px;
+    top: 879px;
+    position: absolute;
+    cursor: pointer; 
+}
+.login-text:hover {
+    color: green;
+}
+
+.login-background {
+    width: 330px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.login-text {
+    width: 267px;
+    left: 41px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 38px;
+    font-family: JejuGothic;
+    font-weight: 400;
+    word-wrap: break-word;
+    background: none;
+    border: none;
+}
+
+
+
+
+.welcome {
+    padding-left: 55px;
+    left: 82px;
+    top: 441px;
+    position: absolute;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    font-family: JejuGothic;
+    font-weight: 400;
+    word-wrap: break-word;
+    
+}
+
+.title {
+    width: 350px;
+    height: 200px;
+    padding-left: 95px;
+    padding-right: 96px;
+    top: 498px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    left: -1px
+}
+
+.title-text {
+    text-align: center;
+   
+}
+
+.title-text span {
+    color: white;
+    font-size: 90px;
+    font-family: Lilita One;
+    word-wrap: break-word;
+    
+    
+}
+.email-container {
+    width: 597px;
+    height: 128px;
+    left: 616px;
+    top: 526px;
+    position: absolute;
+}
+
+.password-container {
+    width: 597px;
+    height: 140px;
+    left: 614px;
+    top: 654px;
+    position: absolute;
+}
+
+.forgot-password {
+    width: 187px;
+    height: 22px;
+    padding-left: 1.93px;
+    padding-right: 3.07px;
+    left: 1005px;
+    top: 821px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.forgot-password-text {
+    text-align: center;
+    color: #1B1A55;
+    font-size: 20px;
+    font-family: Arbutus Slab;
+    font-weight: 400;
+    text-decoration: underline;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+.signup-button {
+    width: 317px;
+    height: 57px;
+    left: 110px;
+    top: 892px;
+    position: absolute;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.signup-button :hover{
+    color: blue;
+    }
+
+
+.signup-background {
+    width: 317px;
+    height: 57px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    border-radius: 50px;
+}
+
+
+.signup-text {
+    left: 76.17px;
+    top: 12.30px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: JejuGothic;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+
+.login-header {
+    width: 296px;
+    height: 60px;
+    left: 779px;
+    top: 454px;
+    position: absolute;
+}
+.login-header-text {
+    text-align: center;
+    color: #1B1A55;
+    font-size: 50px;
+    font-family: Inria Serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.tagline {
+    width: 245px;
+    height: 22px;
+    left: 145px;
+    top: 709px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.tagline-text {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: Gilda Display;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.basic-footer {
+    background-color: #9290C3; 
+    height: 50px; 
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    top: 1120px;
+}
+
+.email-input, .password-input {
+    width: calc(100% - 16px); 
+    padding: 23px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    position: absolute;
+    top: 65px; 
+    left: 3px; 
+    font-size: 20px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.email-label, .password-label {
+    left: 8px; 
+    top: 9px; 
+    position: absolute;
+    color: black;
+    font-size: 22px;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+
+
+
