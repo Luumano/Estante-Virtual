@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Estante Virtual</title>
+</head>
+
+<body>
+    <header class="inicio">
+        <p>Compre aqui livros novos, usados e seminovos!</p>
+    </header>
+
+    <nav class="container">
+        <div class="painel">
+            <h1>Estante Virtual</h1>
+            <div class="painel1"></div>
+            <div class="painel2">
+                <input type="text" id="searchInput" placeholder="O que você está procurando?">
+                <img id="searchIcon" src="img/pesquisa.png" alt="Ícone de pesquisa">
+            </div>
+            <div class="usuario1">
+                <a href="login.html" id="userIconLink">
+                    <img src="img/usuario.png" alt="Usuário">
+                </a>
+            </div>
+            <div class="usuario">
+                <a href="login.html" id="userGreetingLink">Olá Usuário</a>
+                <a href="compra.html" id="cartIconLink">
+                    <img src="img/carrinho.png" alt="Carrinho"> </a>
+            </div>
+        </div>
+        <div class="categorias">
+            <div class="textc">
+                Categorias
+            <img src="img/categoria.png" alt="" id="categoriesIcon">
+            </div>
+            <div class="categories-menu" id="categoriesMenu">
+                <ul>
+                <li><a href="romance.html">Romance</a></li>
+                <li><a href="drama.html">Drama</a></li>
+                <li><a href="culinaria.html">Culinária</a></li>
+                <li><a href="fantasia.html">Fantasia</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="foto">
+            <img src="img/fantasia.png" alt="capa">
+        </section>
+
+        <section>
+        <h3 class="section-title1">Livros Mais Vendidos</h3>
+        <div class="book-card" style="left: 150px;">
+            <a href="book_details.html?id=1">
+                <div class="price-tag">
+                    <div class="price-background"></div>
+                    <div class="price-text">A partir de R$ 6</div>
+                </div>
+                <div class="book-title">A hipótese do amor</div>
+                <div class="book-author">Ali Hazelwood</div>
+                <img class="book-image" src="img/hipotese do amor.png" alt="imagem1">
+            </a>
+        </div>
+        <div class="book-card" style="left: 340px; ">
+            <a href="book_details.html?id=2">
+            <div class="price-tag">
+                <div class="price-background"></div>
+                <div class="price-text">A partir de R$ 6</div>
+            </div>
+            <div class="book-titleD">O Hobbit</div>
+            <div class="book-author">J. R. R. Tolkien</div>
+            <img class="book-image" src="img/hobit.png" alt ="imagem2">
+        </div>
+        </a>
+        <div class="book-card" style="left: 530px; ">
+            <div class="price-tag">
+                <div class="price-background"></div>
+                <div class="price-text">A partir de R$ 6</div>
+            </div>
+            <div class="book-titleD">Phantastes</div>
+            <div class="book-author">George MacDonald</div>
+            <img class="book-image" src="img/Phantastes.png" alt="imagem3">
+        </div>
+        <div class="book-card" style="left: 720px; ">
+            <div class="price-tag">
+                <div class="price-background"></div>
+                <div class="price-text">A partir de R$ 6</div>
+            </div>
+            <div class="book-titleD">Coraline</div>
+            <div class="book-authorD">Neil Gaiman</div>
+            <img class="book-image" src="img/coraline.png" alt="imagem4">
+        </div>
+        <div class="book-card" style="left: 910px;">
+            <div class="price-tag">
+                <div class="price-background"></div>
+                <div class="price-text">A partir de R$ 6</div>
+            </div> <div class="book-title">O Nome do Vento</div>
+            <div class="book-author">Patrick Rothfuss</div>
+            <img class="book-image" src="img/vento.png" alt="imagem5">
+        </div>
+        <div class="book-card" style="left: 1100px;">
+            <div class="price-tag">
+                <div class="price-background"></div>
+                <div class="price-text">A partir de R$ 6</div>
+            </div> <div class="book-titleD">A Fúria dos Reis</div>
+            <div class="book-author">George R. R. Martin</div>
+            <img class="book-image" src="img/furia dos reis.png" alt="imagem6">
+        </div>
+        
+        
+    </section>
+
+     
+    <section class="section-title2">Clássicos</section>
+    <div class="book-card" style="left: 150px; top: 950px;">
+        <div class="price-tag">
+            <div class="price-background"></div>
+            <div class="price-text">A partir de R$ 6</div>
+        </div>
+        <div class="book-titleD">Jogos Vorazes</div>
+        <div class="book-author">Suzanne Collins</div>
+        <img class="book-image" src="img/jogos v.png" />
+    </div>
+    <div class="book-card" style="left: 340px; top: 950px;">
+        <div class="price-tag">
+            <div class="price-background"></div>
+            <div class="price-text">A partir de R$ 6</div>
+        </div>
+        <div class="book-titleD1">Meio Rei</div>
+        <div class="book-author">Joe Abercrombie</div>
+        <img class="book-image" src="img/meu rei.png" />
+    </div>
+    <div class="book-card" style="left: 530px; top: 950px;">
+        <div class="price-tag">
+            <div class="price-background"></div>
+            <div class="price-text">A partir de R$ 6</div>
+        </div>
+        <div class="book-title">Livro da Noite</div>
+        <div class="book-author">Holly Black</div>
+        <img class="book-image" src="img/livro da noite.png" />
+    </div>
+    <div class="book-card" style="left: 717px; top: 950px;">
+        <div class="price-tag">
+            <div class="price-background"></div>
+            <div class="price-text">A partir de R$ 6</div>
+        </div>
+        <div class="book-title">Sombra de Ossos</div>
+        <div class="book-author">Leigh Bardugo </div>
+        <img class="book-image" src="img/sobra ossos.png" />
+    </div>
+    <div class="book-card" style="left: 910px; top: 950px;">
+        <div class="price-tag">
+            <div class="price-background"></div>
+            <div class="price-text">A partir de R$ 6</div>
+        </div>
+        <div class="book-titleD">NeverNight </div>
+        <div class="book-authorD">Jay Kristoff</div>
+        <img class="book-image" src="img/NeverNight.png" />
+    </div>
+    <div class="book-card" style="left: 1100px; top: 950px;">
+        <div class="price-tag">
+            <div class="price-background"></div>
+            <div class="price-text">A partir de R$ 6</div>
+        </div>
+        <div class="book-title">A Bússola de Ouro</div>
+        <div class="book-authorD">Philip Pullman</div>
+        <img class="book-image" src="img/bussula.png" />
+    </div>
+     
+    <section class="authors-title">Livros Usados Disponíveis</section>
+    <div class="book-card" style="left: 150px; top: 1370px;">
+        <div class="price-tag">
+            <div class="price-background"></div>
+            <div class="price-text">A partir de R$ 6</div>
+        </div>
+        <div class="book-title">A Pequena Sereia</div>
+        <div class="book-author">Hans C. Andersen</div>
+        <img class="book-image" src="img/A-Pequena-Sereia.png" alt="imagem7">
+    </div>
+    <div class="book-card" style="left: 340px; top: 1370px;">
+        <div class="price-tag">
+            <div class="price-background"></div>
+            <div class="price-text">A partir de R$ 6</div>
+        </div>
+        <div class="book-title">A era dos mortos</div>
+        <div class="book-author">Rodrigo de Oliveira</div>
+        <img class="book-image" src="img/A-Era-Dos-Mortos.jpg" alt="imagem8">
+    </div>
+    <div class="book-card" style="left: 530px; top: 1370px;">
+        <div class="price-tag">
+            <div class="price-background"></div>
+            <div class="price-text">A partir de R$ 6</div>
+        </div>
+        <div class="book-title">O Sussuro nas Trevas</div>
+        <div class="book-author">H.P. Lovecraft</div>
+        <img class="book-image" src="img/o-sussurro-nas-trevas.jpg" alt="imagem9">
+    </div>
+    <div class="book-card" style="left: 720px; top: 1370px;">
+        <div class="price-tag">
+            <div class="price-background"></div>
+            <div class="price-text">A partir de R$ 6</div>
+        </div>
+        <div class="book-title">Esplendor da Honra</div>
+        <div class="book-author">Julie Garwood</div>
+        <img class="book-image" src="img/Esplendor-da-Honra.png" alt="imagem10">
+    </div>
+    <div class="book-card" style="left: 910px; top: 1370px;">
+        <div class="price-tag">
+            <div class="price-background"></div>
+            <div class="price-text">A partir de R$ 6</div>
+        </div>
+        <div class="book-title">Histórias de Hogwarts</div>
+            <div class="book-author">J.K. Rowlingn</div>
+            <img class="book-image" src="img/Historia-de-hogwarts.jpg" alt="imagem11">
+    </div>
+    <div class="book-card" style="left: 1100px; top: 1370px;">
+        <div class="price-tag">
+            <div class="price-background"></div>
+            <div class="price-text">A partir de R$ 6</div>
+        </div>
+        <div class="book-title">Um Milhão de Sóis</div>
+            <div class="book-authorD">Beth Revis</div>
+            <img class="book-image" src="img/Um-Milhão-de-Sóis.png" alt="imagem12">
+    </div>
+    </main>
+    
+    <footer class="final"></footer>
+   
+        <script src="js/script.js"></script>
+    </body>
+    
+    </html>
+    

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Estante Virtual</title>
+</head>
+
+<body>
+    <header class="inicio">
+        <p>Compre aqui livros novos, usados e seminovos!</p>
+    </header>
+
+    <nav class="container">
+        <div class="painel">
+            <h1>Estante Virtual</h1>
+            <div class="painel1"></div>
+            <div class="painel2">
+                <input type="text" id="searchInput" placeholder="O que você está procurando?">
+                <img id="searchIcon" src="img/pesquisa.png" alt="Ícone de pesquisa">
+            </div>
+            <div class="usuario1">
+                <a href="login.html" id="userIconLink">
+                    <img src="img/usuario.png" alt="Usuário">
+                </a>
+            </div>
+            <div class="usuario">
+                <a href="login.html" id="userGreetingLink">Olá Usuário</a>
+                <a href="compra.html" id="cartIconLink">
+                    <img src="img/carrinho.png" alt="Carrinho"> </a>
+            </div>
+        </div>
+        <div class="categorias">
+            <div class="textc">
+                Categorias
+            <img src="img/categoria.png" alt="" id="categoriesIcon">
+            </div>
+            <div class="categories-menu" id="categoriesMenu">
+                <ul>
+                <li><a href="romance.html">Romance</a></li>
+                <li><a href="drama.html">Drama</a></li>
+                <li><a href="culinaria.html">Culinária</a></li>
+                <li><a href="fantasia.html">Fantasia</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="foto">
+            <img src="img/romance.png" alt="capa">
+        </section>
+
+        <section>
+            <h3 class="section-title1">Livros Mais Vendidos</h3>
+            <div class="book-card" style="left: 150px;">
+                <a href="book_details.html?id=1">
+                    <div class="price-tag">
+                        <div class="price-background"></div>
+                        <div class="price-text">A partir de R$ 6</div>
+                    </div>
+                    <div class="book-title">A hipótese do amor</div>
+                    <div class="book-author">Ali Hazelwood</div>
+                    <img class="book-image" src="img/hipotese do amor.png" alt="imagem1">
+                </a>
+            </div>
+            <div class="book-card" style="left: 340px; ">
+                <a href="book_details.html?id=2">
+                <div class="price-tag">
+                    <div class="price-background"></div>
+                    <div class="price-text">A partir de R$ 6</div>
+                </div>
+                <div class="book-title">Tempestade de Guerra</div>
+                <div class="book-author">Victoria Aveyard</div>
+                <img class="book-image" src="img/Rectangle 15.jpg" alt ="imagem2">
+            </div>
+            </a>
+            <div class="book-card" style="left: 530px; ">
+                <div class="price-tag">
+                    <div class="price-background"></div>
+                    <div class="price-text">A partir de R$ 6</div>
+                </div>
+                <div class="book-title">O Diário de um Mago</div>
+                <div class="book-author">Paulo Coelho</div>
+                <img class="book-image" src="img/Rectangle 16.jpg" alt="imagem3">
+            </div>
+            <div class="book-card" style="left: 720px; ">
+                <div class="price-tag">
+                    <div class="price-background"></div>
+                    <div class="price-text">A partir de R$ 6</div>
+                </div>
+                <div class="book-title">Laços de Família</div>
+                <div class="book-author">Clarisse Lispector</div>
+                <img class="book-image" src="img/Rectangle 17.jpg" alt="imagem4">
+            </div>
+            <div class="book-card" style="left: 910px;">
+                <div class="price-tag">
+                    <div class="price-background"></div>
+                    <div class="price-text">A partir de R$ 6</div>
+                </div> <div class="book-title">A Culpa é das Estrelas</div>
+                <div class="book-author">John Green</div>
+                <img class="book-image" src="img/A-Culpa-e-das-estrelas.jpg" alt="imagem5">
+            </div>
+            <div class="book-card" style="left: 1100px;">
+                <div class="price-tag">
+                    <div class="price-background"></div>
+                    <div class="price-text">A partir de R$ 6</div>
+                </div> <div class="book-title">Tempestade de Guerra</div>
+                <div class="book-author">Victoria Aveyard</div>
+                <img class="book-image" src="img/Rectangle 15.jpg" alt="imagem6">
+            </div>
+            
+            
+        </section>
+
+         
+        <section class="section-title2">Romances clássicos</section>
+        <div class="book-card" style="left: 150px; top: 950px;">
+            <div class="price-tag">
+                <div class="price-background"></div>
+                <div class="price-text">A partir de R$ 6</div>
+            </div>
+            <div class="book-title">A hipótese do amor</div>
+            <div class="book-author">Ali Hazelwood</div>
+            <img class="book-image" src="img/hipotese do amor.png" />
+        </div>
+        <div class="book-card" style="left: 340px; top: 950px;">
+            <div class="price-tag">
+                <div class="price-background"></div>
+                <div class="price-text">A partir de R$ 6</div>
+            </div>
+            <div class="book-title">Um Verão na Itália</div>
+            <div class="book-author">Carrie Elks</div>
+            <img class="book-image" src="img/verão.png" />
+        </div>
+        <div class="book-card" style="left: 530px; top: 950px;">
+            <div class="price-tag">
+                <div class="price-background"></div>
+                <div class="price-text">A partir de R$ 6</div>
+            </div>
+            <div class="book-title">Amor & Gelato</div>
+            <div class="book-author">Jenna E. Welch</div>
+            <img class="book-image" src="img/amor gelado.png" />
+        </div>
+        <div class="book-card" style="left: 720px; top: 950px;">
+            <div class="price-tag">
+                <div class="price-background"></div>
+                <div class="price-text">A partir de R$ 6</div>
+            </div>
+            <div class="book-title">Teto para Dois</div>
+            <div class="book-author">Beth O’Leary</div>
+            <img class="book-image" src="img/teto para dois.png" />
+        </div>
+        <div class="book-card" style="left: 910px; top: 950px;">
+            <div class="price-tag">
+                <div class="price-background"></div>
+                <div class="price-text">A partir de R$ 6</div>
+            </div>
+            <div class="book-title">Táticas do Amor</div>
+            <div class="book-author">Sarah Adams</div>
+            <img class="book-image" src="img/taticas do amor.png" />
+        </div>
+        <div class="book-card" style="left: 1100px; top: 950px;">
+            <div class="price-tag">
+                <div class="price-background"></div>
+                <div class="price-text">A partir de R$ 6</div>
+            </div>
+            <div class="book-title">Pecados no Inverno</div>
+            <div class="book-author">Lisa Kleypas</div>
+            <img class="book-image" src="img/Pecados no Inverno.png" />
+        </div>
+         
+        <section class="authors-title">Livros Usados Disponíveis</section>
+        <div class="book-card" style="left: 150px; top: 1370px;">
+            <div class="price-tag">
+                <div class="price-background"></div>
+                <div class="price-text">A partir de R$ 6</div>
+            </div>
+            <div class="book-title">A Pequena Sereia</div>
+            <div class="book-author">Hans C. Andersen</div>
+            <img class="book-image" src="img/A-Pequena-Sereia.png" alt="imagem7">
+        </div>
+        <div class="book-card" style="left: 340px; top: 1370px;">
+            <div class="price-tag">
+                <div class="price-background"></div>
+                <div class="price-text">A partir de R$ 6</div>
+            </div>
+            <div class="book-title">A era dos mortos</div>
+            <div class="book-author">Rodrigo de Oliveira</div>
+            <img class="book-image" src="img/A-Era-Dos-Mortos.jpg" alt="imagem8">
+        </div>
+        <div class="book-card" style="left: 530px; top: 1370px;">
+            <div class="price-tag">
+                <div class="price-background"></div>
+                <div class="price-text">A partir de R$ 6</div>
+            </div>
+            <div class="book-title">O Sussuro nas Trevas</div>
+            <div class="book-author">H.P. Lovecraft</div>
+            <img class="book-image" src="img/o-sussurro-nas-trevas.jpg" alt="imagem9">
+        </div>
+        <div class="book-card" style="left: 720px; top: 1370px;">
+            <div class="price-tag">
+                <div class="price-background"></div>
+                <div class="price-text">A partir de R$ 6</div>
+            </div>
+            <div class="book-title">Esplendor da Honra</div>
+            <div class="book-author">Julie Garwood</div>
+            <img class="book-image" src="img/Esplendor-da-Honra.png" alt="imagem10">
+        </div>
+        <div class="book-card" style="left: 910px; top: 1370px;">
+            <div class="price-tag">
+                <div class="price-background"></div>
+                <div class="price-text">A partir de R$ 6</div>
+            </div>
+            <div class="book-title">Histórias de Hogwarts</div>
+                <div class="book-author">J.K. Rowlingn</div>
+                <img class="book-image" src="img/Historia-de-hogwarts.jpg" alt="imagem11">
+        </div>
+        <div class="book-card" style="left: 1100px; top: 1370px;">
+            <div class="price-tag">
+                <div class="price-background"></div>
+                <div class="price-text">A partir de R$ 6</div>
+            </div>
+            <div class="book-title">Um Milhão de Sóis</div>
+                <div class="book-author">Beth Revis</div>
+                <img class="book-image" src="img/Um-Milhão-de-Sóis.png" alt="imagem12">
+        </div>
+        </main>
+        
+        <footer class="final"></footer>
+
+        <script src="js/script.js"></script>
+    </body>
+    
+    </html>
+    

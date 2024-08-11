@@ -220,10 +220,46 @@ body {
     word-wrap: break-word;
 }
 
+.book-titleD {
+    position: absolute;
+    top: 164px;
+    left: 45px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-family: Inria Serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.book-titleD1 {
+    position: absolute;
+    top: 164px;
+    left: 55px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-family: Inria Serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
 .book-author {
     position: absolute;
     top: 186px;
     left: 35px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: Inria Serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.book-authorD {
+    position: absolute;
+    top: 186px;
+    left: 40px;
     text-align: center;
     color: white;
     font-size: 15px;
@@ -487,11 +523,12 @@ height:202px;
  }
 
  .final{
-    width: 100%; 
-    left: 0px; 
-    top: 2090px; 
-    position: absolute; 
-    border: 3px white solid;
+    background-color: #9290C3;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 1695px;
+    height: 10px;
 
  }
 
