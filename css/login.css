@@ -561,7 +561,7 @@ main {
 
 .email-label, .password-label {
     left: 8px; 
-    top: 9px; 
+    top: 27px; 
     position: absolute;
     color: black;
     font-size: 22px;
@@ -569,6 +569,10 @@ main {
     font-weight: 400;
 }
 
-
-
-
+.voltar{ 
+        height:23px;
+        position:absolute;
+        left:25px;
+        top:45px;
+        cursor: pointer;
+}

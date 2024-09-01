@@ -1731,3 +1731,11 @@ footer {
     color:#ffffff
 
 } 
+
+.voltar{ 
+    height:23px;
+    position:absolute;
+    left:25px;
+    top:45px;
+    cursor: pointer;
+}

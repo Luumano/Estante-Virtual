@@ -1,0 +1,545 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9290C3;
+}
+.container{
+    position: absolute;
+    width: 100%;
+}
+
+.inicio{
+    width: 100%; 
+    height: 50px; 
+    background-color: #070F2B;
+    position: relative;
+    margin: 0 auto; 
+}
+
+.inicio p{
+    width: 386px;
+    position: absolute; 
+    text-align: center; 
+    color: white; 
+    font-size: 14px;  
+}
+
+.painel{
+    position: absolute;
+    width:100%;
+    height:120px;
+    background-color: #1B1A55; 
+    
+    
+}
+.painel h1{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    width: 190px;
+    left: 100px;
+    font-size: 32px; 
+    font-family: jejuGothic;
+    font-weight: 400;
+}
+
+.painel1 {
+    width: 485px;
+    height: 47px;
+    left: 295px; 
+    top: 40px;
+    position: absolute; 
+    background: white; 
+    border-radius: 14px;
+}
+.painel2 input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 450px;
+    height: 45px;
+    background: transparent;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+
+.painel2{
+    left: 390px;
+    top: 45px;
+    position: absolute;
+    font-family: JejuGothic; 
+    font-weight: 400; 
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+.categorias{
+    width: 100%;
+    height:50px;  
+    top: 120px;
+    position: absolute; 
+    cursor: pointer;
+    background: linear-gradient(0deg, #535C91 0%, #535C91 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%)
+}
+
+.textc {
+    left: 71px;
+    top:0px;
+    position: absolute;
+    color: white; 
+    font-size: 32px; 
+    font-family: Inter; 
+    word-wrap: break-word
+}
+
+.foto {
+    right: 0px; 
+    width: 100%; 
+    height: auto; 
+    top: 210px;
+    position: absolute;
+    text-align: center; 
+}
+.foto img {
+    width: 100%; 
+    height: auto;
+
+}
+
+.usuario {
+    left: 875px;
+    top: 47px;
+    position: absolute;
+    font-size: 19px;
+    font-family: JejuGothic;
+    cursor: pointer;
+}
+
+.usuario a {
+    text-decoration: none;
+    color: inherit;
+    padding: 8px 12px;
+    color: #f0f0f0;
+}
+
+.usuario a:hover {
+    color: rgb(181, 209, 238);
+}
+
+.usuario1 {
+    left: 850px;
+    top: 54px;
+    position: absolute;
+}
+
+.usuario img {
+    position: relative;
+    cursor: pointer;
+}
+
+.usuario #cartIconLink img {
+    position: relative;
+    top: 5px; 
+}
+
+.painel1 img{
+    position: absolute;
+    top: 9px;
+    left: 150px;
+}
+
+.painel2 img{
+    position: absolute;
+    top: 11px;
+    left: 290px;
+}
+
+
+.textc img{
+    left: 150px;
+    top: 11px;
+    position: absolute;
+}
+
+/* menu de categorias*/
+.categories-menu {
+    top:40px;
+    left: 80px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 20px;
+}
+
+.categories-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.categories-menu ul li a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 8px 12px;
+}
+
+.categories-menu ul li a:hover {
+    background-color: #f0f0f0;
+}
+
+.book-details{
+    position: absolute;
+    top: 350px;
+}
+
+.voltar{ 
+    height:23px;
+    position:absolute;
+    left:25px;
+    top:45px;
+    cursor: pointer;
+}
+
+.introducao1{
+    position: absolute;
+    top: 530px;
+    left: 8%;
+}
+
+.introducaoU{
+    position: absolute;
+    top: 470px;
+    left: 8%;
+}
+
+.tituloinicial h3{ 
+    color: white; 
+    font-size: 32px; 
+    height: 15px;
+    font-family: Abyssinica SIL; 
+    top: 530px
+}
+
+.textClassicos{ 
+	color:rgba(0, 0, 0, 1);
+    width:1216px;
+	height:90px;
+	font-family:JejuGothic;
+	font-size:20px
+}
+
+.tituloC2{
+    color:rgba(7.000000057742, 15.000000055879354, 43.00000123679638, 1);
+    width:322px;
+    height:44px;
+	font-family:Jacques Francois;
+	font-size:32px;
+}
+
+.custom-line {
+    border: 1px solid #000;
+	width:100%;
+    border:3px solid rgba(7.995760850608349, 6.375000094994903, 102.00000151991844, 1);
+}
+
+.secaolivro1 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 810px;
+    left: 200px;
+    cursor: pointer;
+  }
+
+  .imagemLivro{
+    width: 85px;
+    height: 127px;
+    position: absolute;
+    top: 30px;
+    left: 47px;
+  }
+  
+  .background { 
+    background-color: rgba(146, 144, 195, 1);
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  
+  .price-container { 
+    width: 145px;
+    height: 30px;
+    position: absolute;
+    left: 15px;
+    top: 221px;
+    
+  }
+  
+  .price-background { 
+    background-color: rgba(255, 255, 255, 1);
+    width: 145px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+    border: 1px solid rgba(27, 26, 85, 1);
+  }
+  
+  .price-background:hover {
+    background-color: #8f9ce4;
+  }
+  
+  .price-text { 
+    color: rgba(27, 26, 85, 1);
+    width: 110px;
+    height: 15px;
+    position: absolute;
+    left: 17px;
+    top: 7px;
+    font-family: Inter;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  
+  
+  .book-title { 
+    color: rgba(0, 0, 0, 1);
+    width: 146px;
+    height: 18px;
+    position: absolute;
+    left: 14px;
+    top: 164px;
+    font-family: Inria Serif;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .author-name { 
+    color: rgba(255, 255, 255, 1);
+    width: 121px;
+    height: 18px;
+    position: absolute;
+    left: 27px;
+    top: 186px;
+    font-family: Inria Serif;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .secaolivro2 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 810px;
+    left: 379px;
+    cursor: pointer;
+  }
+
+  .secaolivro3 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 810px;
+    left: 557px;
+    cursor: pointer;
+  }
+
+  .secaolivro4 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 810px;
+    left: 735px;
+    cursor: pointer;
+  }
+
+  .secaolivro5 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 1070px;
+    left: 200px;
+    cursor: pointer;
+  }
+
+  .secaolivro6 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 1070px;
+    left: 379px;
+    cursor: pointer;
+  }
+
+  .secaolivro7 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 1070px;
+    left: 557px;
+    cursor: pointer;
+  }
+
+  .secaolivro8 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 1070px;
+    left: 735px;
+    cursor: pointer;
+  }
+
+  .secaolivro9 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 1330px;
+    left: 200px;
+    cursor: pointer;
+  }
+
+  .secaolivro10 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 1330px;
+    left: 379px;
+    cursor: pointer;
+  }
+
+  .secaolivro11 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 1330px;
+    left: 557px;
+    cursor: pointer;
+  }
+
+  .secaolivro12 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 1330px;
+    left: 735px;
+    cursor: pointer;
+  }
+  
+  .todosLivros{
+    position: absolute;
+    left:150px;
+    top: -10px;
+    align-items: center;
+    width: auto;
+}
+ 
+.todosLivrosU{
+    position: absolute;
+    left:150px;
+    top: -150px;
+    align-items: center;
+    width: auto;
+}
+    
+.tituloC3, .tituloC3U{
+    color:rgba(7.000000057742, 15.000000055879354, 43.00000123679638, 1);
+	font-family:Jacques Francois;
+	font-size:35px;
+    position: absolute;
+    left: 8%;    
+}
+.tituloC3{
+    top: 1600px;
+}
+.tituloC3U{
+    top: 1500px;
+}
+
+.carrossel, .carrosselU {
+    position: absolute;
+    left: 120px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    white-space: nowrap;
+    overflow: visible;
+    white-space: nowrap;
+    transition: transform 0.5s ease; 
+}
+.carrossel{
+    top: 1680px;
+}
+.carrosselU{
+    top: 1580px;
+}
+
+.carrossel1, .carrossel2, .carrossel3, .carrossel4, .carrossel5, 
+.carrossel6, .carrossel7, .carrossel8, .carrossel9, .carrossel10, 
+.carrossel11, .carrossel12 {
+    position: relative;
+    box-sizing: border-box;
+    width: calc(100% / 6); 
+    object-fit: cover;
+    background: #ffffff;
+}
+.carrossel7, .carrossel8, .carrossel9, .carrossel10, .carrossel11, .carrossel12 {
+    display: none;
+}
+
+.setas {
+    cursor: pointer;
+    text-align: center;
+    transform: translate(-70%);
+    position: relative;
+    top: 50px;
+    left: 30px;
+
+
+}
+.setas:first-of-type {
+    left: 10px;
+}
+.setas:last-of-type {
+    right: 10px;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.1s forwards;
+}
+
+.fade-out {
+    opacity: 1;
+    animation: fadeOut 0.2s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+}
+
+.basic-footer {
+    background-color: #9290C3; 
+    height: 50px; 
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    top: 2000px;
+}

@@ -231,7 +231,6 @@ body {
     font-weight: 700;
     word-wrap: break-word;
 }
-
 .book-titleD1 {
     position: absolute;
     top: 164px;
@@ -267,6 +266,7 @@ body {
     font-weight: 700;
     word-wrap: break-word;
 }
+
 .book-image {
     width: 85px;
     height: 127px;
@@ -411,7 +411,7 @@ font-size: 19px;
 }
 .leiamais1{
 width: 256px;
- height: 70px;
+ height: 77px;
  left: 38px; 
  top:  180px; 
  position: absolute; 
@@ -539,8 +539,6 @@ main {
     padding: 20px;
 }
 
-
-
 .container1{ 
     width: 1294px;
     height: 788px; 
@@ -630,6 +628,13 @@ p {
     top: 350px;
 }
 
+.voltar{ 
+    height:23px;
+    position:absolute;
+    left:25px;
+    top:45px;
+    cursor: pointer;
+}
 
 @media (max-width: 480px) {
     .inicio p {
