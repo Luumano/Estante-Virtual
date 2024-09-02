@@ -1,14 +1,19 @@
 // Lógica de pesquisa
 const searchIcon = document.getElementById('searchIcon');
 const searchInput = document.getElementById('searchInput');
+const nomeInput = document.getElementById('nomeInput');
+const telefoneInput = document.getElementById('telefoneInput');
 
 searchIcon.addEventListener('click', () => {
     const searchTerm = searchInput.value.trim().toLowerCase();
-    if (searchTerm) {
-        // Redirecionar para a página de resultados
-        window.location.href = `search_results.html?query=${encodeURIComponent(searchTerm)}`;
+    const nomeTerm = nomeInput.value.trim().toLowerCase();
+    const telefoneTerm = telefoneInput.value.trim().toLowerCase();
+
+    if (searchTerm || nomeTerm || telefoneTerm) {
+        // Redirecionar para a página de resultados com os termos
+        window.location.href = `search_results.html?query=${encodeURIComponent(searchTerm)}&nome=${encodeURIComponent(nomeTerm)}&telefone=${encodeURIComponent(telefoneTerm)}`;
     } else {
-        alert('Por favor, digite um termo de pesquisa válido.');
+        alert('Por favor, preencha pelo menos um campo para a pesquisa.');
     }
 });
 
