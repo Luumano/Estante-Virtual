@@ -8,12 +8,13 @@ public class Livro {
 	private String categoria;
 	private double preco;
 
-	public Livro(String titulo, String autor, String isbn, int anoPublicacao, String categoria) {
+	public Livro(String titulo, String autor, String isbn, int anoPublicacao, String categoria, double preco) {
 		this.titulo = titulo;
 		this.autor = autor;
 		this.isbn = isbn;
 		this.anoPublicacao = anoPublicacao;
 		this.categoria = categoria;
+		this.preco = preco;
 	}
 
 	public String getTitulo() {
