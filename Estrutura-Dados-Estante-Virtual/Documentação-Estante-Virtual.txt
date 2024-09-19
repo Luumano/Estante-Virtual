@@ -1,0 +1,54 @@
+A classe Livro representa cada livro com seus atributos.
+A classe EstanteVirtual usa um Map para associar categorias a listas de livros.
+A classe EstanteVirtual continuará sendo responsável pela organização e busca dos livros, sem mudanças.
+Métodos como adicionarLivro, listarLivrosPorCategoria, e buscarLivroPorTitulo permitem manipular e 
+consultar a estante virtual.
+
+Remoção de livros pelo ISBN: A função removerLivro(String isbn) permite remover um livro da estante com base no seu ISBN.
+Contagem de livros por categoria: O método contarLivrosPorCategoria(String categoria) 
+retorna o número de livros em uma determinada categoria.
+Ordenação de livros por título: O método ordenarLivrosPorTitulo() organiza todos os livros da estante por título.
+Ordenação de livros por ano de publicação: O método ordenarLivrosPorAno() organiza os livros por ano de publicação.
+
+A classe CarrinhoDeCompras será responsável por adicionar, remover e listar livros no carrinho, 
+além de calcular o valor total das compras.
+
+Na classe Livro foi adicionada o preço ao livro para que possamos usá-lo no processo de compra.
+
+Adicionar livros ao carrinho: Com o método adicionarLivro(), os livros são adicionados ao carrinho.
+Remover livros do carrinho: Com o método removerLivro(), os livros podem ser removidos do carrinho pelo ISBN.
+Exibir carrinho: O método exibirCarrinho() mostra todos os livros presentes no carrinho de compras.
+Calcular valor total: O método calcularValorTotal() retorna o valor total dos livros no carrinho.
+Finalizar compra: O método finalizarCompra() limpa o carrinho e exibe o valor total da compra.
+
+Criar a estrutura usando a interface Queue do Java. Esta interface já possui métodos como add() 
+para adicionar elementos e remove() para removê-los, mantendo a ordem FIFO.
+Essa estrutura de fila permite que os livros sejam armazenados de maneira sequencial, e o primeiro 
+livro adicionado será sempre o primeiro a ser removido, como em uma fila comum (FIFO).
+
+Adicionar livros: O método adicionarLivro(Livro livro) adiciona o livro ao final da fila.
+Remover o primeiro livro: O método removerLivro() remove o primeiro livro adicionado (FIFO).
+Ver o próximo livro a ser removido: O método verProximoLivro() retorna o próximo livro na fila sem removê-lo.
+Exibir todos os livros: O método exibirTodosLivros() exibe todos os livros na fila, mostrando a ordem de adição.
+Verificar se a estante está vazia: O método estanteVazia() verifica se a fila está vazia.
+
+Estrutura de uma lista encadeada
+Em uma lista encadeada, cada nó contém dois elementos:
+
+Dado: O livro.
+Referência para o próximo nó.
+
+Cada nó na lista encadeada contém um livro e uma referência para o próximo nó.
+
+Classe EstanteListaEncadeada:
+Esta classe representa a estante virtual implementada como uma lista encadeada. Ela terá métodos para adicionar, 
+remover e listar os livros.
+
+Adicionar livro: O método adicionarLivro(Livro livro) adiciona um novo livro ao final da lista encadeada.
+Remover livro pelo ISBN: O método removerLivro(String isbn) remove um livro pelo seu ISBN. Ele percorre a 
+lista encadeada para encontrar o nó correspondente.
+Exibir todos os livros: O método exibirLivros() percorre a lista encadeada e exibe todos os livros.
+Verificar se a estante está vazia: O método estanteVazia() retorna true se não houver nenhum livro na lista.
+
+A lista encadeada é uma estrutura dinâmica onde cada nó possui uma referência ao próximo. Isso permite que livros 
+sejam adicionados ou removidos sem a necessidade de mover todos os elementos, como em um array.
