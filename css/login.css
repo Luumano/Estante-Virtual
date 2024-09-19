@@ -305,8 +305,12 @@ main {
     max-width: 1267px;
     margin: 0 auto;
     padding: 20px;
-    top: -50px;
+    top: -60px;
+    left: -20px;
+
 }
+
+
 
 .container2 {
     width: 90%;
@@ -318,8 +322,8 @@ main {
 }
 
 .shadow-box {
-    width: 1267px;
-    height: 788px;
+    width: 1250px;
+    height: 750px;
     background: rgba(255, 255, 255, 0.45);
     box-shadow: 40px 40px 50px rgba(0, 0, 0, 0.40);
     border-radius: 40px;
@@ -337,8 +341,8 @@ main {
 }
 
 .left-background {
-    width: 462px;
-    height: 788px;
+    width: 450px;
+    height: 750px;
     background: #201F75;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0);
     border-radius: 40px;
@@ -346,7 +350,7 @@ main {
 
 .login-button {
     left: 738px;
-    top: 879px;
+    top: 895px;
     position: absolute;
     cursor: pointer; 
 }
@@ -384,8 +388,8 @@ main {
 
 .welcome {
     padding-left: 55px;
-    left: 82px;
-    top: 441px;
+    left: 70px;
+    top: 390px;
     position: absolute;
     align-items: center;
     color: white;
@@ -401,7 +405,7 @@ main {
     height: 200px;
     padding-left: 95px;
     padding-right: 96px;
-    top: 498px;
+    top: 450px;
     position: absolute;
     justify-content: center;
     align-items: center;
@@ -420,22 +424,34 @@ main {
     font-family: Lilita One;
     word-wrap: break-word;
     
-    
 }
-.email-container {
+.nome-container,
+.telefone-container,
+.email-container,
+.senha-container, .senha-container1 {
     width: 597px;
     height: 128px;
     left: 616px;
-    top: 526px;
     position: absolute;
 }
+.nome-container {
+    top: 365px;
+}
 
-.password-container {
-    width: 597px;
-    height: 140px;
-    left: 614px;
-    top: 654px;
-    position: absolute;
+.email-container {
+    top: 488px;
+}
+
+.telefone-container {
+    top: 611px;
+}
+
+.senha-container {
+    top: 730px;
+}
+
+.senha-container1 {
+    top: 611px;
 }
 
 .forgot-password {
@@ -487,7 +503,7 @@ main {
 }
 
 
-.signup-text {
+.signup-text, .signup-text2 {
     left: 76.17px;
     top: 12.30px;
     position: absolute;
@@ -499,14 +515,26 @@ main {
     word-wrap: break-word;
 }
 
+.signup-text2{
+    left: 120px;
+}
 
-.login-header {
+
+.login-header, .login-header2 {
     width: 296px;
     height: 60px;
     left: 779px;
     top: 454px;
     position: absolute;
 }
+.login-header2{
+    top: 320px;
+    width:400px;
+    left: 700px;
+}
+
+
+
 .login-header-text {
     text-align: center;
     color: #1B1A55;
@@ -516,36 +544,38 @@ main {
     word-wrap: break-word;
 }
 
-.tagline {
-    width: 245px;
+.tagline, .tagline2{
+    width: 350px;
     height: 22px;
-    left: 145px;
-    top: 709px;
+    left: 90px;
+    top: 680px;
     position: absolute;
     justify-content: center;
     align-items: center;
     display: inline-flex;
 }
 
-.tagline-text {
+.tagline-text,.tagline-text2 {
     text-align: center;
     color: white;
     font-size: 25px;
     font-family: Gilda Display;
     font-weight: 400;
     word-wrap: break-word;
+   
 }
 
-.basic-footer {
-    background-color: #9290C3; 
-    height: 50px; 
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    top: 1120px;
+.tagline2 {
+    top: 800px;
+    
 }
 
-.email-input, .password-input {
+.nome-input,
+.telefone-input,
+.email-input,
+.senha-input,
+.senha-input1
+ {
     width: calc(100% - 16px); 
     padding: 23px;
     border: none;
@@ -559,7 +589,11 @@ main {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.email-label, .password-label {
+.nome-label,
+.telefone-label,
+.email-label,
+.senha-label,.senha-label1
+ {
     left: 8px; 
     top: 27px; 
     position: absolute;
@@ -569,10 +603,21 @@ main {
     font-weight: 400;
 }
 
+
 .voltar{ 
         height:23px;
         position:absolute;
         left:25px;
         top:45px;
         cursor: pointer;
+}
+
+
+.basic-footer {
+    background-color: #9290C3; 
+    height: 50px; 
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    top: 1120px;
 }

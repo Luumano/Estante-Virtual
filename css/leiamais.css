@@ -94,6 +94,20 @@ body {
     word-wrap: break-word
 }
 
+.foto {
+    right: 0px; 
+    width: 100%; 
+    height: auto; 
+    top: 210px;
+    position: absolute;
+    text-align: center; 
+}
+.foto img {
+    width: 100%; 
+    height: auto;
+
+}
+
 .usuario {
     left: 875px;
     top: 47px;
@@ -148,6 +162,7 @@ body {
     top: 11px;
     position: absolute;
 }
+
 /* menu de categorias*/
 .categories-menu {
     top:40px;
@@ -177,441 +192,348 @@ body {
 .categories-menu ul li a:hover {
     background-color: #f0f0f0;
 }
-@media (max-width: 480px) {
-    .inicio p {
-        font-size: 14px; 
-        text-align: center;
-       
-    }
-    .painel h1{
-        top: 5px;
-        left: 30px;
-        font-size:100% ;
-    }
-    .painel1 {
-        width: 50%; 
-        left: 7%;
-        padding: 10px;
-        height: 25px;
-    }
-    .painel2 input[type="text"] {
-        top: 38px;
-        left: 10px;
-        font-size:10px;
-    }
-    .textc {
-        font-size: 20px;
-        top: 5px;
-        left: 26px;
-    }
-    #categoriesIcon {
-        width: 20px;
-        height: auto;
-        left: 100px;
-        top: 9px;
-    }
-    #categoriesMenu{
-        left: 15px;
-    }
-   
-    .usuario {
-        left: 67%;
-        top: 55px;
-        font-size: 10px;
-    }
-    .usuario1 {
-        left: 65%;
-        top: 55px;
-    }
-    .usuario1 img {
-        width: 15px; 
-        height: auto;
-    }
-    .usuario #cartIconLink img {
-        top: 2px; 
-        width: 24px; 
-        height: auto;
-        left: -10px;
-    }
-    
-    
-}
 
-@media (max-width: 768px) {
-    .painel h1 {
-        top: 5px;
-        left: 30px;
-        font-size:100% ;
-    }
-    .painel1 {
-        width: 50%; 
-        left: 7%; 
-        padding: 10px;
-        height: 25px;
-    }
-    .painel2 {
-        top: 38px;
-        left: 40px;
-
-    }
-
-    #searchIcon {
-        left: 150px;
-        top: 19px;
-        height: 20px;
-    }
-
-    .textc {
-        font-size: 20px;
-        top: 5px;
-        left: 26px;
-    }
-    #categoriesIcon {
-        width: 20px;
-        height: auto;
-        left: 100px;
-        top: 9px;
-    }
-    #categoriesMenu{
-        left: 15px;
-    }
-   
-    .usuario{
-        left: 50%;
-        top:40px;
-        font-size: 17px;
-    }
-    .usuario1 {
-        left: 65%;
-        top: 48px;
-
-    }
-    .usuario1 img {
-        width: 15px; 
-        height: auto;
-    }
-    .usuario #cartIconLink img {
-        top: 0px; 
-        width: 24px; 
-        height: auto; 
-        left: -10px;
-    }
-    
-}
-
-main {
-    position: relative;
-    width: 100%;
-    max-width: 1267px;
-    margin: 0 auto;
-    padding: 20px;
-    top: -60px;
-    left: -20px;
-
-}
-
-
-
-.container2 {
-    width: 90%;
-    height: 700px;
-    left: 40px;
-    top: 250px;
+.book-details{
     position: absolute;
-    border-radius: 40px;
+    top: 350px;
 }
-
-.shadow-box {
-    width: 1250px;
-    height: 750px;
-    background: rgba(255, 255, 255, 0.45);
-    box-shadow: 40px 40px 50px rgba(0, 0, 0, 0.40);
-    border-radius: 40px;
-    
-}
-
-.left-box {
-    top: 0px;
-    position: absolute;
-    border-radius: 40px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-}
-
-.left-background {
-    width: 450px;
-    height: 750px;
-    background: #201F75;
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0);
-    border-radius: 40px;
-}
-
-.login-button {
-    left: 738px;
-    top: 895px;
-    position: absolute;
-    cursor: pointer; 
-}
-.login-text:hover {
-    color: green;
-}
-
-.login-background {
-    width: 330px;
-    height: 50px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    background: white;
-    border-radius: 40px;
-    cursor: pointer;
-}
-
-.login-text {
-    width: 267px;
-    left: 41px;
-    position: absolute;
-    text-align: center;
-    color: black;
-    font-size: 38px;
-    font-family: JejuGothic;
-    font-weight: 400;
-    word-wrap: break-word;
-    background: none;
-    border: none;
-}
-
-
-
-
-.welcome {
-    padding-left: 55px;
-    left: 70px;
-    top: 390px;
-    position: absolute;
-    align-items: center;
-    color: white;
-    font-size: 50px;
-    font-family: JejuGothic;
-    font-weight: 400;
-    word-wrap: break-word;
-    
-}
-
-.title {
-    width: 350px;
-    height: 200px;
-    padding-left: 95px;
-    padding-right: 96px;
-    top: 450px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-    left: -1px
-}
-
-.title-text {
-    text-align: center;
-   
-}
-
-.title-text span {
-    color: white;
-    font-size: 90px;
-    font-family: Lilita One;
-    word-wrap: break-word;
-    
-}
-.nome-container,
-.telefone-container,
-.email-container,
-.senha-container, .senha-container1 {
-    width: 597px;
-    height: 128px;
-    left: 616px;
-    position: absolute;
-}
-.nome-container {
-    top: 365px;
-}
-
-.email-container {
-    top: 488px;
-}
-
-.telefone-container {
-    top: 611px;
-}
-
-.senha-container {
-    top: 730px;
-}
-
-.senha-container1 {
-    top: 611px;
-}
-
-.forgot-password {
-    width: 187px;
-    height: 22px;
-    padding-left: 1.93px;
-    padding-right: 3.07px;
-    left: 1005px;
-    top: 821px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-}
-
-.forgot-password-text {
-    text-align: center;
-    color: #1B1A55;
-    font-size: 20px;
-    font-family: Arbutus Slab;
-    font-weight: 400;
-    text-decoration: underline;
-    word-wrap: break-word;
-    cursor: pointer;
-}
-
-.signup-button {
-    width: 317px;
-    height: 57px;
-    left: 110px;
-    top: 892px;
-    position: absolute;
-    border-radius: 20px;
-    cursor: pointer;
-}
-.signup-button :hover{
-    color: blue;
-    }
-
-
-.signup-background {
-    width: 317px;
-    height: 57px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    background: white;
-    border-radius: 50px;
-}
-
-
-.signup-text, .signup-text2 {
-    left: 76.17px;
-    top: 12.30px;
-    position: absolute;
-    text-align: center;
-    color: black;
-    font-size: 30px;
-    font-family: JejuGothic;
-    font-weight: 400;
-    word-wrap: break-word;
-}
-
-.signup-text2{
-    left: 120px;
-}
-
-
-.login-header, .login-header2 {
-    width: 296px;
-    height: 60px;
-    left: 779px;
-    top: 454px;
-    position: absolute;
-}
-.login-header2{
-    top: 320px;
-    width:400px;
-    left: 700px;
-}
-
-
-
-.login-header-text {
-    text-align: center;
-    color: #1B1A55;
-    font-size: 50px;
-    font-family: Inria Serif;
-    font-weight: 700;
-    word-wrap: break-word;
-}
-
-.tagline, .tagline2{
-    width: 350px;
-    height: 22px;
-    left: 90px;
-    top: 680px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-}
-
-.tagline-text,.tagline-text2 {
-    text-align: center;
-    color: white;
-    font-size: 25px;
-    font-family: Gilda Display;
-    font-weight: 400;
-    word-wrap: break-word;
-   
-}
-
-.tagline2 {
-    top: 800px;
-    
-}
-
-.nome-input,
-.telefone-input,
-.email-input,
-.senha-input,
-.senha-input1
- {
-    width: calc(100% - 16px); 
-    padding: 23px;
-    border: none;
-    outline: none;
-    border-radius: 20px;
-    position: absolute;
-    top: 65px; 
-    left: 3px; 
-    font-size: 20px;
-    background: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.nome-label,
-.telefone-label,
-.email-label,
-.senha-label,.senha-label1
- {
-    left: 8px; 
-    top: 27px; 
-    position: absolute;
-    color: black;
-    font-size: 22px;
-    font-family: Inter;
-    font-weight: 400;
-}
-
 
 .voltar{ 
-        height:23px;
-        position:absolute;
-        left:25px;
-        top:45px;
-        cursor: pointer;
+    height:23px;
+    position:absolute;
+    left:25px;
+    top:45px;
+    cursor: pointer;
 }
 
+.introducao1{
+    position: absolute;
+    top: 530px;
+    left: 8%;
+}
+
+.introducaoU{
+    position: absolute;
+    top: 470px;
+    left: 8%;
+}
+
+.tituloinicial h3{ 
+    color: white; 
+    font-size: 32px; 
+    height: 15px;
+    font-family: Abyssinica SIL; 
+    top: 530px
+}
+
+.textClassicos{ 
+	color:rgba(0, 0, 0, 1);
+    width:1216px;
+	height:90px;
+	font-family:JejuGothic;
+	font-size:20px
+}
+
+.tituloC2{
+    color:rgba(7.000000057742, 15.000000055879354, 43.00000123679638, 1);
+    width:322px;
+    height:44px;
+	font-family:Jacques Francois;
+	font-size:32px;
+}
+
+.custom-line {
+    border: 1px solid #000;
+	width:100%;
+    border:3px solid rgba(7.995760850608349, 6.375000094994903, 102.00000151991844, 1);
+}
+
+.secaolivro1 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 810px;
+    left: 200px;
+    cursor: pointer;
+  }
+
+  .imagemLivro{
+    width: 85px;
+    height: 127px;
+    position: absolute;
+    top: 30px;
+    left: 47px;
+  }
+  
+  .background { 
+    background-color: rgba(146, 144, 195, 1);
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  
+  .price-container { 
+    width: 145px;
+    height: 30px;
+    position: absolute;
+    left: 15px;
+    top: 221px;
+    
+  }
+  
+  .price-background { 
+    background-color: rgba(255, 255, 255, 1);
+    width: 145px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+    border: 1px solid rgba(27, 26, 85, 1);
+  }
+  
+  .price-background:hover {
+    background-color: #8f9ce4;
+  }
+  
+  .price-text { 
+    color: rgba(27, 26, 85, 1);
+    width: 110px;
+    height: 15px;
+    position: absolute;
+    left: 17px;
+    top: 7px;
+    font-family: Inter;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  
+  
+  .book-title { 
+    color: rgba(0, 0, 0, 1);
+    width: 146px;
+    height: 18px;
+    position: absolute;
+    left: 14px;
+    top: 164px;
+    font-family: Inria Serif;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .author-name { 
+    color: rgba(255, 255, 255, 1);
+    width: 121px;
+    height: 18px;
+    position: absolute;
+    left: 27px;
+    top: 186px;
+    font-family: Inria Serif;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .secaolivro2 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 810px;
+    left: 379px;
+    cursor: pointer;
+  }
+
+  .secaolivro3 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 810px;
+    left: 557px;
+    cursor: pointer;
+  }
+
+  .secaolivro4 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 810px;
+    left: 735px;
+    cursor: pointer;
+  }
+
+  .secaolivro5 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 1070px;
+    left: 200px;
+    cursor: pointer;
+  }
+
+  .secaolivro6 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 1070px;
+    left: 379px;
+    cursor: pointer;
+  }
+
+  .secaolivro7 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 1070px;
+    left: 557px;
+    cursor: pointer;
+  }
+
+  .secaolivro8 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 1070px;
+    left: 735px;
+    cursor: pointer;
+  }
+
+  .secaolivro9 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 1330px;
+    left: 200px;
+    cursor: pointer;
+  }
+
+  .secaolivro10 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 1330px;
+    left: 379px;
+    cursor: pointer;
+  }
+
+  .secaolivro11 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 1330px;
+    left: 557px;
+    cursor: pointer;
+  }
+
+  .secaolivro12 { 
+    width: 175px;
+    height: 266px;
+    position: absolute;
+    top: 1330px;
+    left: 735px;
+    cursor: pointer;
+  }
+  
+  .todosLivros{
+    position: absolute;
+    left:150px;
+    top: -10px;
+    align-items: center;
+    width: auto;
+}
+ 
+.todosLivrosU{
+    position: absolute;
+    left:150px;
+    top: -150px;
+    align-items: center;
+    width: auto;
+}
+    
+.tituloC3, .tituloC3U{
+    color:rgba(7.000000057742, 15.000000055879354, 43.00000123679638, 1);
+	font-family:Jacques Francois;
+	font-size:35px;
+    position: absolute;
+    left: 8%;    
+}
+.tituloC3{
+    top: 1600px;
+}
+.tituloC3U{
+    top: 1500px;
+}
+
+.carrossel, .carrosselU {
+    position: absolute;
+    left: 120px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    white-space: nowrap;
+    overflow: visible;
+    white-space: nowrap;
+    transition: transform 0.5s ease; 
+}
+.carrossel{
+    top: 1680px;
+}
+.carrosselU{
+    top: 1580px;
+}
+
+.carrossel1, .carrossel2, .carrossel3, .carrossel4, .carrossel5, 
+.carrossel6, .carrossel7, .carrossel8, .carrossel9, .carrossel10, 
+.carrossel11, .carrossel12 {
+    position: relative;
+    box-sizing: border-box;
+    width: calc(100% / 6); 
+    object-fit: cover;
+    background: #ffffff;
+}
+.carrossel7, .carrossel8, .carrossel9, .carrossel10, .carrossel11, .carrossel12 {
+    display: none;
+}
+
+.setas {
+    cursor: pointer;
+    text-align: center;
+    transform: translate(-70%);
+    position: relative;
+    top: 50px;
+    left: 30px;
+
+
+}
+.setas:first-of-type {
+    left: 10px;
+}
+.setas:last-of-type {
+    right: 10px;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.1s forwards;
+}
+
+.fade-out {
+    opacity: 1;
+    animation: fadeOut 0.2s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+}
 
 .basic-footer {
     background-color: #9290C3; 
@@ -619,5 +541,5 @@ main {
     width: 100%;
     position: absolute;
     bottom: 0;
-    top: 1120px;
+    top: 2000px;
 }
